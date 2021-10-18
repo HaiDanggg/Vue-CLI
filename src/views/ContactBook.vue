@@ -47,7 +47,7 @@
     <div class="col-md-6">
       <div v-if="currentContact">
         <ContactDetails :contact="currentContact" />
-        <router-link :to="'/contacts' + contacts.id">
+        <router-link :to="'/contacts/' + currentContact.id">
           <span class="badge badge-warning">Hiệu chỉnh</span>
         </router-link>
       </div>

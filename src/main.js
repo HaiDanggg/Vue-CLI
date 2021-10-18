@@ -14,7 +14,3 @@ import router from "./router";
      .use(router)
      .mount('#app')
 
-// const app = createApp(App);
-// app.use(router);
-// app.mixin({methods: {handle}});
-// app.mount('#app');
