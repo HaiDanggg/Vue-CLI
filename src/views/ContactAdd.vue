@@ -6,7 +6,9 @@
             :contact = "contact"
             @contact-submit = "createContact"
             />
+        <p>{{ message }}</p>
         </div>
+
     </div>
 </template>
 
@@ -33,6 +35,7 @@ export default {
                 console.log(error);
             } else {
                 console.log(response.data);
+                this.message = "Liên hệ đã được đệ trình thành công."
             }
         },
     },
